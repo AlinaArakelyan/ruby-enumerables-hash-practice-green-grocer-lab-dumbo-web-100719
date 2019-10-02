@@ -46,6 +46,10 @@ def apply_coupons(cart, coupons)
 #   end 
 # end 
 #   cart 
+
+    coupons.each do |coupon|
+      item = coupon[:item]
+      
 end
 
 def apply_clearance(cart)
